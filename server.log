@@ -1,0 +1,215 @@
+2022-10-18 23:08:57.946  INFO 4576 --- [main] o.b.airqualitymonitoring.AqiApplication  : Starting AqiApplication using Java 16.0.1 on LAPTOP-SU84056D with PID 4576 (C:\Air Quality Monitoring Project\backup\aqi_10182022_747PM\Air Quality Monitoring\target\classes started by estif in C:\Air Quality Monitoring Project\backup\aqi_10182022_747PM\Air Quality Monitoring)
+2022-10-18 23:08:57.952  INFO 4576 --- [main] o.b.airqualitymonitoring.AqiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-10-18 23:09:00.860  INFO 4576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 23:09:00.905  INFO 4576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 0 JPA repository interfaces.
+2022-10-18 23:09:01.682  INFO 4576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9191 (http)
+2022-10-18 23:09:01.697  INFO 4576 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-18 23:09:01.698  INFO 4576 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 23:09:01.914  INFO 4576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-18 23:09:01.914  INFO 4576 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3856 ms
+2022-10-18 23:09:02.029 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@4cc77c2e
+
+2022-10-18 23:09:02.315  INFO 4576 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 23:09:02.419  INFO 4576 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-18 23:09:02.736  INFO 4576 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-18 23:09:02.948 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2022-10-18 23:09:02.952 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension................................false
+2022-10-18 23:09:02.952 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : autoCommit................................true
+2022-10-18 23:09:02.953 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : catalog................................none
+2022-10-18 23:09:02.953 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql................................none
+2022-10-18 23:09:02.953 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery................................none
+2022-10-18 23:09:02.954 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout................................20000
+2022-10-18 23:09:02.954 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : dataSource................................none
+2022-10-18 23:09:02.954 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName................................none
+2022-10-18 23:09:02.955 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI................................none
+2022-10-18 23:09:02.955 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties................................{password=<masked>}
+2022-10-18 23:09:02.956 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : driverClassName................................"com.mysql.cj.jdbc.Driver"
+2022-10-18 23:09:02.956 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName................................none
+2022-10-18 23:09:02.957 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties................................{}
+2022-10-18 23:09:02.957 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry................................none
+2022-10-18 23:09:02.957 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : idleTimeout................................10000
+2022-10-18 23:09:02.957 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout................................1
+2022-10-18 23:09:02.957 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries................................false
+2022-10-18 23:09:02.958 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl................................jdbc:mysql://localhost:3306/air_quality_index?createDatabaseIfNotExist=true&useSSL=true
+2022-10-18 23:09:02.959 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime................................0
+2022-10-18 23:09:02.959 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold................................0
+2022-10-18 23:09:02.960 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : maxLifetime................................30000
+2022-10-18 23:09:02.960 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize................................100
+2022-10-18 23:09:02.960 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : metricRegistry................................none
+2022-10-18 23:09:02.961 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory................................com.zaxxer.hikari.metrics.micrometer.MicrometerMetricsTrackerFactory@386e9fd8
+2022-10-18 23:09:02.961 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : minimumIdle................................5
+2022-10-18 23:09:02.961 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : password................................<masked>
+2022-10-18 23:09:02.961 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : poolName................................"HikariPool-1"
+2022-10-18 23:09:02.961 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : readOnly................................false
+2022-10-18 23:09:02.962 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : registerMbeans................................false
+2022-10-18 23:09:02.962 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor................................none
+2022-10-18 23:09:02.962 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : schema................................none
+2022-10-18 23:09:02.963 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : threadFactory................................internal
+2022-10-18 23:09:02.963 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation................................default
+2022-10-18 23:09:02.963 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : username................................"root"
+2022-10-18 23:09:02.963 DEBUG 4576 --- [main] com.zaxxer.hikari.HikariConfig           : validationTimeout................................5000
+2022-10-18 23:09:02.964  INFO 4576 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-18 23:09:03.586 DEBUG 4576 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fa8297b
+2022-10-18 23:09:03.592  INFO 4576 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-18 23:09:03.628  INFO 4576 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-18 23:09:03.693 DEBUG 4576 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2022-10-18 23:09:03.694 DEBUG 4576 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2022-10-18 23:09:03.754 DEBUG 4576 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d6289a1
+2022-10-18 23:09:03.798 DEBUG 4576 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c9b298e
+2022-10-18 23:09:03.836 DEBUG 4576 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b728d1
+2022-10-18 23:09:03.875 DEBUG 4576 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78d531b4
+2022-10-18 23:09:03.875 DEBUG 4576 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2022-10-18 23:09:05.105  INFO 4576 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 23:09:05.125  INFO 4576 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 23:09:05.620  INFO 4576 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@26f07261, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b55ea4d, org.springframework.security.web.context.SecurityContextPersistenceFilter@7940b729, org.springframework.security.web.header.HeaderWriterFilter@63c88994, org.springframework.security.web.authentication.logout.LogoutFilter@530d40b4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@351fadfa, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5440a3a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@63ede2a0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24fb752f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68dbe225, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57df93c1, org.springframework.security.web.session.SessionManagementFilter@4adc3951, org.springframework.security.web.access.ExceptionTranslationFilter@22a22f1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4932d580]
+2022-10-18 23:09:05.668  WARN 4576 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 23:09:05.900  INFO 4576 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-10-18 23:09:06.472  WARN 4576 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/resources/static/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-18 23:09:06.473  INFO 4576 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/resources/static/css/**']
+2022-10-18 23:09:06.474  WARN 4576 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/resources/static/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-18 23:09:06.474  INFO 4576 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/resources/static/js/**']
+2022-10-18 23:09:06.510  INFO 4576 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-10-18 23:09:06.640  INFO 4576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9191 (http) with context path ''
+2022-10-18 23:09:06.660  INFO 4576 --- [main] o.b.airqualitymonitoring.AqiApplication  : Started AqiApplication in 9.271 seconds (JVM running for 10.432)
+2022-10-18 23:09:08.963  INFO 4576 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-18 23:09:08.964  INFO 4576 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-18 23:09:08.967  INFO 4576 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-10-18 23:09:33.122 DEBUG 4576 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2d6289a1: (connection has passed maxLifetime)
+2022-10-18 23:09:33.176 DEBUG 4576 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16631ef
+2022-10-18 23:09:33.233 DEBUG 4576 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c9b298e: (connection has passed maxLifetime)
+2022-10-18 23:09:33.271 DEBUG 4576 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@405b3bd4
+2022-10-18 23:09:33.422 DEBUG 4576 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@78d531b4: (connection has passed maxLifetime)
+2022-10-18 23:09:33.424 DEBUG 4576 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4fa8297b: (connection has passed maxLifetime)
+2022-10-18 23:09:33.426 DEBUG 4576 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-10-18 23:09:33.466 DEBUG 4576 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2074c49b
+2022-10-18 23:09:33.518 DEBUG 4576 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Add connection elided, waiting 0, queue 1
+2022-10-18 23:09:33.518 DEBUG 4576 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4b728d1: (connection has passed maxLifetime)
+2022-10-18 23:09:33.522 DEBUG 4576 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d94c9ca
+2022-10-18 23:09:33.573 DEBUG 4576 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@243a185e
+2022-10-18 23:09:33.573 DEBUG 4576 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2022-10-18 23:09:33.707 DEBUG 4576 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2022-10-18 23:09:33.707 DEBUG 4576 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2022-10-18 23:09:33.707 DEBUG 4576 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-10-18 23:10:02.644 DEBUG 4576 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16631ef: (connection has passed maxLifetime)
+2022-10-18 23:10:02.675 DEBUG 4576 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4299466b
+2022-10-18 23:10:02.676 DEBUG 4576 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@405b3bd4: (connection has passed maxLifetime)
+2022-10-18 23:10:02.710 DEBUG 4576 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a44c50
+2022-10-18 23:10:02.834 DEBUG 4576 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@243a185e: (connection has passed maxLifetime)
+2022-10-18 23:10:02.866 DEBUG 4576 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@638bb31f
+2022-10-18 23:10:02.914 DEBUG 4576 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5d94c9ca: (connection has passed maxLifetime)
+2022-10-18 23:10:02.940 DEBUG 4576 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7eadd38e
+2022-10-18 23:10:02.962 DEBUG 4576 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2074c49b: (connection has passed maxLifetime)
+2022-10-18 23:10:02.998 DEBUG 4576 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f3c7a0c
+2022-10-18 23:10:03.722 DEBUG 4576 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2022-10-18 23:10:03.723 DEBUG 4576 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2022-10-18 23:10:03.723 DEBUG 4576 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-10-18 23:10:26.520  INFO 4576 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-10-18 23:10:26.538  INFO 4576 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-18 23:10:26.540  INFO 4576 --- [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-18 23:10:26.556  INFO 4576 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 23:10:26.560  INFO 4576 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-18 23:10:26.560 DEBUG 4576 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+2022-10-18 23:10:26.561 DEBUG 4576 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4299466b: (connection evicted)
+2022-10-18 23:10:26.562 DEBUG 4576 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3a44c50: (connection evicted)
+2022-10-18 23:10:26.564 DEBUG 4576 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@638bb31f: (connection evicted)
+2022-10-18 23:10:26.565 DEBUG 4576 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7eadd38e: (connection evicted)
+2022-10-18 23:10:26.566 DEBUG 4576 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@f3c7a0c: (connection evicted)
+2022-10-18 23:10:26.567 DEBUG 4576 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2022-10-18 23:10:26.568  INFO 4576 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-18 23:13:34.887  INFO 1956 --- [main] o.b.airqualitymonitoring.AqiApplication  : Starting AqiApplication using Java 16.0.1 on LAPTOP-SU84056D with PID 1956 (C:\Air Quality Monitoring Project\backup\aqi_10182022_747PM\Air Quality Monitoring\target\classes started by estif in C:\Air Quality Monitoring Project\backup\aqi_10182022_747PM\Air Quality Monitoring)
+2022-10-18 23:13:34.893  INFO 1956 --- [main] o.b.airqualitymonitoring.AqiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-10-18 23:13:36.307  INFO 1956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 23:13:36.339  INFO 1956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2022-10-18 23:13:37.086  INFO 1956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9191 (http)
+2022-10-18 23:13:37.102  INFO 1956 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-18 23:13:37.102  INFO 1956 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 23:13:37.315  INFO 1956 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-18 23:13:37.316  INFO 1956 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2341 ms
+2022-10-18 23:13:37.415 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@4cc77c2e
+
+2022-10-18 23:13:37.710  INFO 1956 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 23:13:37.840  INFO 1956 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-18 23:13:38.187  INFO 1956 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-18 23:13:38.354 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2022-10-18 23:13:38.357 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension................................false
+2022-10-18 23:13:38.358 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : autoCommit................................true
+2022-10-18 23:13:38.358 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : catalog................................none
+2022-10-18 23:13:38.358 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql................................none
+2022-10-18 23:13:38.358 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery................................none
+2022-10-18 23:13:38.358 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout................................20000
+2022-10-18 23:13:38.359 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : dataSource................................none
+2022-10-18 23:13:38.359 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName................................none
+2022-10-18 23:13:38.359 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI................................none
+2022-10-18 23:13:38.360 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties................................{password=<masked>}
+2022-10-18 23:13:38.360 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : driverClassName................................"com.mysql.cj.jdbc.Driver"
+2022-10-18 23:13:38.360 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName................................none
+2022-10-18 23:13:38.360 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties................................{}
+2022-10-18 23:13:38.361 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry................................none
+2022-10-18 23:13:38.361 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : idleTimeout................................10000
+2022-10-18 23:13:38.361 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout................................1
+2022-10-18 23:13:38.361 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries................................false
+2022-10-18 23:13:38.361 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl................................jdbc:mysql://localhost:3306/air_quality_index?createDatabaseIfNotExist=true&useSSL=true
+2022-10-18 23:13:38.362 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime................................0
+2022-10-18 23:13:38.362 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold................................0
+2022-10-18 23:13:38.362 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : maxLifetime................................30000
+2022-10-18 23:13:38.362 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize................................100
+2022-10-18 23:13:38.363 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : metricRegistry................................none
+2022-10-18 23:13:38.363 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory................................com.zaxxer.hikari.metrics.micrometer.MicrometerMetricsTrackerFactory@5ba184fc
+2022-10-18 23:13:38.364 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : minimumIdle................................5
+2022-10-18 23:13:38.364 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : password................................<masked>
+2022-10-18 23:13:38.364 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : poolName................................"HikariPool-1"
+2022-10-18 23:13:38.365 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : readOnly................................false
+2022-10-18 23:13:38.365 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : registerMbeans................................false
+2022-10-18 23:13:38.366 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor................................none
+2022-10-18 23:13:38.366 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : schema................................none
+2022-10-18 23:13:38.366 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : threadFactory................................internal
+2022-10-18 23:13:38.367 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation................................default
+2022-10-18 23:13:38.367 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : username................................"root"
+2022-10-18 23:13:38.368 DEBUG 1956 --- [main] com.zaxxer.hikari.HikariConfig           : validationTimeout................................5000
+2022-10-18 23:13:38.368  INFO 1956 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-18 23:13:38.935 DEBUG 1956 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a8b9458
+2022-10-18 23:13:38.941  INFO 1956 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-18 23:13:38.985  INFO 1956 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-18 23:13:39.057 DEBUG 1956 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2022-10-18 23:13:39.058 DEBUG 1956 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2022-10-18 23:13:39.097 DEBUG 1956 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79b09b6e
+2022-10-18 23:13:39.130 DEBUG 1956 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@289de99d
+2022-10-18 23:13:39.162 DEBUG 1956 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1051e8e3
+2022-10-18 23:13:39.198 DEBUG 1956 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cd335b1
+2022-10-18 23:13:39.198 DEBUG 1956 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2022-10-18 23:13:40.318  INFO 1956 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 23:13:40.331  INFO 1956 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 23:13:40.693  INFO 1956 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4d22265c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f7b8d59, org.springframework.security.web.context.SecurityContextPersistenceFilter@628f0936, org.springframework.security.web.header.HeaderWriterFilter@66b62ebd, org.springframework.security.web.authentication.logout.LogoutFilter@3872867d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@43de88f3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4c25201, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@28551755, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e5fba90, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57283fac, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ec68821, org.springframework.security.web.session.SessionManagementFilter@18cb4ed1, org.springframework.security.web.access.ExceptionTranslationFilter@2e667e95, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@761a0bbd]
+2022-10-18 23:13:40.736  WARN 1956 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 23:13:40.968  INFO 1956 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-10-18 23:13:41.449  WARN 1956 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/resources/static/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-18 23:13:41.449  INFO 1956 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/resources/static/css/**']
+2022-10-18 23:13:41.450  WARN 1956 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/resources/static/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-18 23:13:41.450  INFO 1956 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/resources/static/js/**']
+2022-10-18 23:13:41.479  INFO 1956 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-10-18 23:13:41.554  INFO 1956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9191 (http) with context path ''
+2022-10-18 23:13:41.574  INFO 1956 --- [main] o.b.airqualitymonitoring.AqiApplication  : Started AqiApplication in 7.222 seconds (JVM running for 8.402)
+2022-10-18 23:13:42.775  INFO 1956 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-18 23:13:42.776  INFO 1956 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-18 23:13:42.778  INFO 1956 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-10-18 23:13:46.375  INFO 1956 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-10-18 23:13:46.395  INFO 1956 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-18 23:13:46.396  INFO 1956 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-18 23:13:46.409  INFO 1956 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 23:13:46.413  INFO 1956 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-18 23:13:46.414 DEBUG 1956 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+2022-10-18 23:13:46.415 DEBUG 1956 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3a8b9458: (connection evicted)
+2022-10-18 23:13:46.419 DEBUG 1956 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@79b09b6e: (connection evicted)
+2022-10-18 23:13:46.420 DEBUG 1956 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@289de99d: (connection evicted)
+2022-10-18 23:13:46.421 DEBUG 1956 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1051e8e3: (connection evicted)
+2022-10-18 23:13:46.422 DEBUG 1956 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2cd335b1: (connection evicted)
+2022-10-18 23:13:46.423 DEBUG 1956 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2022-10-18 23:13:46.423  INFO 1956 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
