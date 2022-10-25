@@ -1,17 +1,5 @@
-# Getting Started
+AirQualityMonitoring
+This Java REST API aims to monitor air quality at a local scale using crowd sourced sensors. It intends to locate sources of localized pollution. It collects hourly pollutant data from a simulated air quality monitoring sensors owned by the public. By following EPA Air Quality Index (AQI) calculations, it checks for the presence of sufficient data and computes the AQI for each pollutant at each sensor location and determines the max hourly and daily AQI. The result can be shown on a bubble map colored by the AQI category. Technologies Used:
 
-### Reference Documentation
-For further reference, please consider the following sections:
-
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.7.3/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.7.3/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.7.3/reference/htmlsingle/#web)
-
-### Guides
-The following guides illustrate how to use some features concretely:
-
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
+Spring Boot, MySQL, JPA-Hibernate, Spring Security
 
